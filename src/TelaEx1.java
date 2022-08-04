@@ -1,3 +1,4 @@
+package exemplos;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -15,11 +16,11 @@ public class TelaEx1 {
 	private JTextField textCPF;
 
 	private TelaEx1() {
-		// definimos o título da janela
-		janela.setTitle("Primeira Aplicação Gráfica");
+		// definimos o tï¿½tulo da janela
+		janela.setTitle("Primeira Aplicaï¿½ï¿½o Grï¿½fica");
 		// definimos a largura e a altura da janela
 		janela.setSize(350, 150);
-		// define que ao fechar a janela, encerre a aplicação
+		// define que ao fechar a janela, encerre a aplicaï¿½ï¿½o
 		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JPanel panel = new JPanel();

@@ -1,3 +1,4 @@
+package exemplos;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
@@ -8,13 +9,13 @@ public class PrimeiroSwing {
 	JButton botao = new JButton("OK");
 
 	private PrimeiroSwing() {
-		// definimos o título da janela
-		janela.setTitle("Primeira Aplicação Gráfica");
+		// definimos o tï¿½tulo da janela
+		janela.setTitle("Primeira AplicaÃ§Ã£o GrÃ¡fica");
 		// definimos a largura e a altura da janela
 		janela.setSize(350, 150);
-		// define que ao fechar a janela, encerre a aplicação
+		// define que ao fechar a janela, encerre a aplicaï¿½ï¿½o
 		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		// adicionamos o botao à janela
+		// adicionamos o botao ï¿½ janela
 		janela.add(botao);
 		// mostramos a janela
 		janela.setVisible(true);
